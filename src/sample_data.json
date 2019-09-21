@@ -13,8 +13,8 @@
     },
     {
       "renderer": "region",
-      "name": "us-east-1",
-      "displayName": "US-EAST-1",
+      "name": "message-platform",
+      "displayName": "message-platform",
       "updated": 1477690448572,
       "nodes": [
         {
@@ -467,7 +467,7 @@
         "maxSemaphores": [
           {
             "targetRegion": "eu-west-1",
-            "region": "us-east-1",
+            "region": "message-platform",
             "value": "20"
           },
           {
@@ -477,16 +477,16 @@
           },
           {
             "targetRegion": "us-west-2",
-            "region": "us-east-1",
+            "region": "message-platform",
             "value": "200"
           },
           {
-            "targetRegion": "us-east-1",
+            "targetRegion": "message-platform",
             "region": "us-west-2",
             "value": "160"
           },
           {
-            "targetRegion": "us-east-1",
+            "targetRegion": "message-platform",
             "region": "eu-west-1",
             "value": "20"
           }
@@ -3151,16 +3151,16 @@
         "maxSemaphores": [
           {
             "targetRegion": "eu-west-1",
-            "region": "us-east-1",
+            "region": "message-platform",
             "value": "20"
           },
           {
-            "targetRegion": "us-east-1",
+            "targetRegion": "message-platform",
             "region": "us-west-2",
             "value": "160"
           },
           {
-            "targetRegion": "us-east-1",
+            "targetRegion": "message-platform",
             "region": "eu-west-1",
             "value": "20"
           },
@@ -3171,7 +3171,7 @@
           },
           {
             "targetRegion": "us-west-2",
-            "region": "us-east-1",
+            "region": "message-platform",
             "value": "200"
           }
         ]
@@ -6124,16 +6124,16 @@
         "maxSemaphores": [
           {
             "targetRegion": "eu-west-1",
-            "region": "us-east-1",
+            "region": "message-platform",
             "value": "20"
           },
           {
-            "targetRegion": "us-east-1",
+            "targetRegion": "message-platform",
             "region": "us-west-2",
             "value": "160"
           },
           {
-            "targetRegion": "us-east-1",
+            "targetRegion": "message-platform",
             "region": "eu-west-1",
             "value": "20"
           },
@@ -6144,7 +6144,7 @@
           },
           {
             "targetRegion": "us-west-2",
-            "region": "us-east-1",
+            "region": "message-platform",
             "value": "200"
           }
         ]
@@ -6167,7 +6167,7 @@
     },
     {
       "source": "INTERNET",
-      "target": "us-east-1",
+      "target": "message-platform",
       "metrics": {
         "danger": 130.71200000000002,
         "normal": 63139.416,
@@ -6189,7 +6189,7 @@
     },
     {
       "source": "eu-west-1",
-      "target": "us-east-1",
+      "target": "message-platform",
       "metrics": {}
     },
     {
@@ -6199,7 +6199,7 @@
     },
     {
       "source": "us-west-2",
-      "target": "us-east-1",
+      "target": "message-platform",
       "metrics": {
         "normal": 0.024
       }
@@ -6213,14 +6213,14 @@
       }
     },
     {
-      "source": "us-east-1",
+      "source": "message-platform",
       "target": "eu-west-1",
       "metrics": {
         "normal": 0.16800000000000004
       }
     },
     {
-      "source": "us-east-1",
+      "source": "message-platform",
       "target": "us-west-2",
       "metrics": {
         "normal": 0.07
